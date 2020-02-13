@@ -28,8 +28,9 @@ var answer5 = [
 //timer
 var timer = document.getElementById("timer");
 var buttonStart = document.getElementById("btn-startQuiz");
-var buttonPause = document.getElementById("btn-pauseQuiz");
-var count = 70;
+var startPage = document.getElementById("text-center");
+
+var count = 75;
 buttonStart.addEventListener("click", function() {
     setInterval(function() {
         count -= 1;
@@ -38,50 +39,3 @@ buttonStart.addEventListener("click", function() {
 })
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// var timeEl = document.querySelector(".timer");
-// var mainEl = document.getElementById("main");
-
-// var secondsLeft = 70;
-
-// function setTime() {
-//   var timerInterval = setInterval(function() {
-//     secondsLeft--;
-//     timeEl.textContent = secondsLeft + " Seconds Left.";
-
-//     if(secondsLeft === 0) {
-//       clearInterval(timerInterval);
-//       sendMessage();
-//     }
-
-//   }, 1000);
-// }
-
-// function sendMessage() {
-//   timeEl.textContent = " ";
-
-//   var imgEl = document.createElement("img");
-
-  
-//   imgEl.setAttribute("src", "images/image_1.jpg");
-//   mainEl.appendChild(imgEl);
-
-// }
-
-// setTime();
