@@ -1,15 +1,11 @@
-.list-item {
-    text-align: right;
-    justify-content: end;
-    align-items: right;
-    align-self: right;
+.list-item {   
     position: absolute;
-    right: 30px;
+    right: 60px;
 }
 
-.timer test-right {
-    position: right;
-    right: 10px;
+#timer {
+    position: absolute;
+    right: 20px;
 }
 
     
