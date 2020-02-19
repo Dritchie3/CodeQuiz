@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css">
   <title>Code Quiz</title>
   <nav class="navbar navbar-expand-sm navbar-light bg-success navbar-fixed-top">
+    <!-- when High score text is clicked, go to high score page -->
     <h5 id="highScore">
       <a href="highScore.html" class="nav-link text-dark">View High Score  </a>
     </h5>
@@ -15,18 +16,19 @@
   </nav>
 </head>
 <body>
-
-  <div id = "start" class= "text-center">
-    <h1 id="title">Coding Quiz Challange</h1>
-    <p  class=" mx-5 px-5" id="Directions">Try and answer the Beer related questions within the time limit. Keep in mind that a wrong answer will penalize your Scoretime by 10 seconds. You will get 10 points for every correct answer and 1 point for every second left after the test.</p>
-    <button id="btn-startQuiz" class="btn btn-success">Start Quiz</button>              
+  <div id = 'page'>
+    <div id = "start" class= "text-center">
+      <h1 id="title"></h1>
+      <p id="Directions" class=" mx-5 px-5" ></p>
+      <button id="btn-startQuiz" class="btn btn-success">Start Quiz</button>              
+    </div>
   </div>
-  <di id="testQuestion">
+  <div id="testQuestion">
     <h3 id="question" class = "text-justify"></h3> 
-    <ol>
+    <ol id = 'corAns'>
       <h3 id="answers" class="href text-justify"></h3>
     </ol> 
-    <h3 button></h3>       
+    <!-- <h3 button></h3>        -->
 
   </div>
 
