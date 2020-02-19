@@ -61,7 +61,7 @@ var directionsEl = document.querySelector('#Directions').append(directions);
 document.addEventListener("click", function() {
     var parent = document.getElementById("page").getElementsByTagName("div")[0];
     var child = document.getElementsByTagName('div')[0];
-    var removed = document.remove(child);
+    var removed = parent.remove(child);
 
     renderQuestions();
 });
@@ -87,7 +87,7 @@ document.addEventListener('click', function(){
         // var ques = child.createElement('h3');
        
         // var child = document.createElement('h3').textContent = testQuestion[k].question;
-        // document.textContent = testQuestion[k].question;
+        document.textContent = testQuestion[k].question;
         console.log('k = ' + k);
         // document.appendchild(parent);
         // var parent = document.createElement('div');
