@@ -1,11 +1,9 @@
-.list-item {   
-    position: absolute;
-    right: 60px;
+.list-item {
+  position: absolute;
+  right: 60px;
 }
 
 #timer {
-    position: absolute;
-    right: 20px;
+  position: absolute;
+  right: 20px;
 }
-
-    

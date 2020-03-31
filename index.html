@@ -18,19 +18,14 @@
 <body>
   <div id = 'page'>
     <div id = "start" class= "text-center">
-      <h1 id="title"></h1>
-      <p id="Directions" class=" mx-5 px-5" ></p>
-      <button id="btn-startQuiz" class="btn btn-success">Start Quiz</button>              
+      <h2 id="title"></h2>
+      <p id="directions" class=" mx-5 px-5" ></p>
+      <ol id = 'corAns'><h5 class = 'ansItems text-left'></h5></ol>
+      <button id="btn-startQuiz" class="btn btn-success">Start Quiz</button>  
+      <h5 id='correctAnswer'></h5>  
+      <h5 id='wrongAnswer'></h5>          
     </div>
   </div>
-  <div id="testQuestion">
-    <h3 id="question" class = "text-justify"></h3> 
-    <ol id = 'corAns'>
-      <h3 id="answers" class="href text-justify"></h3>
-    </ol> 
-    <!-- <h3 button></h3>        -->
-
-  </div>
-
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="script.js"></script>
 </html>

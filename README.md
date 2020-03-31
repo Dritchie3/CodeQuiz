@@ -7,4 +7,4 @@ project gitHub url: https://github.com/Dritchie3/CodeQuiz
 
 live project url: https://dritchie3.github.io/CodeQuiz/
 
-AboutMe portfolio page url: https://dritchie3.github.io/AboutMe/portfolio.html 
+AboutMe portfolio page url: https://dritchie3.github.io/AboutMe/portfolio.html event
